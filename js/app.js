@@ -6,7 +6,7 @@ var indexApp = {
 		this.resize(); //onresize 事件 重置样式
 		this.cancel($('.false')); //注册取消按钮的点击事件
 		this.cancel($('.close'));//注册再来一次按钮的点击事件
-		this.number=3;
+		this.number=6;
 		return this; //返回对象本身,使其可以链式调用
 	},
 	//转盘初始化
